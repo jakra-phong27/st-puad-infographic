@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St.Puad - แผนงาน</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #f0f4f8;
+            color: #073B4C;
+        }
+        .section-title {
+            font-size: 1.875rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            color: #073B4C;
+        }
+        .card {
+            background-color: #FFFFFF;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        /* Styles for navigation links (copy from index.html if needed) */
+        .no-underline {
+            text-decoration: none;
+        }
+        .transition {
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 300ms;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <header class="bg-[#2694AB] text-white py-8 text-center">
+        <h1 class="text-3xl font-bold mb-4">
+            <a href="index.html" class="text-white hover:text-gray-200 no-underline">ลูกประคบ St.Puad - วิถีหยุดปวดวิถีชีวิตดิจิทัล</a>
+        </h1>
+        <p class="text-2xl mt-4">ลูกประคบสมุนไพรนวัตกรรมสำหรับคน Gen Y & Z</p>
+        <p class="text-xl mt-2">By Aimthai AQUA GOAL LABORATORIES</p>
+
+        <nav class="mt-6">
+            <ul class="flex justify-center space-x-6 text-xl">
+                <li><a href="index.html" class="text-white hover:text-[#FFD166] no-underline transition duration-300">ภาพรวม</a></li>
+                <li><a href="schedule-plan.html" class="text-white hover:text-[#FFD166] no-underline transition duration-300">แผนงาน</a></li>
+                <li><a href="marketing-plan.html" class="text-white hover:text-[#FFD166] no-underline transition duration-300">แผนการตลาด</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section id="schedule-plan-content" class="mb-12">
+            <h2 class="section-title">แผนงาน (Schedule Plan)</h2>
+            <div class="card">
+                <p class="text-lg text-gray-700">
+                    หน้านี้จะแสดงรายละเอียดเกี่ยวกับแผนงานและกำหนดการต่างๆ ของโปรเจกต์ St.Puad <br><br>
+                    คุณสามารถเพิ่มเนื้อหาเกี่ยวกับแผนงาน, ตารางเวลา, หรือ Road map ได้ที่นี่ครับ
+                </p>
+                <div class="mt-6">
+                    <h3 class="font-semibold text-xl text-[#118AB2]">ตัวอย่างเนื้อหา:</h3>
+                    <ul class="list-disc list-inside text-lg text-gray-700 mt-2 space-y-1">
+                        <li>**ไตรมาส 3/2568:** สรุปสูตรผลิตภัณฑ์, เตรียมการผลิต, ขออนุญาต อย.</li>
+                        <li>**ไตรมาส 4/2568:** เปิดตัวผลิตภัณฑ์ลูกประคบ St.Puad, เริ่มการตลาดออนไลน์</li>
+                        <li>**ไตรมาส 1/2569:** ขยายช่องทางการจำหน่ายสู่ร้านขายยาบางแห่ง, เพิ่มแคมเปญการตลาด</li>
+                        <li>**อนาคต:** วิจัยและพัฒนาผลิตภัณฑ์ St.Puad ในรูปแบบอื่นๆ (ครีม, เจล)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-[#073B4C] text-white py-6 text-center">
+        <p class="text-sm">© 2568 St.Puad. สงวนลิขสิทธิ์.</p>
+        <p class="text-xs mt-1">นวัตกรรมเพื่อสุขภาพคนดิจิทัล</p>
+    </footer>
+</body>
+</html>
